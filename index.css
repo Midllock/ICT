@@ -1,0 +1,50 @@
+body, html{
+    background-color: #060a33 ;
+}
+
+.upp-bar{
+    color: white ;
+    font-weight: 800;
+    text-align: center;
+    background-attachment: scroll;
+    background-color: rgba(0, 0, 0, 0.39);
+    
+}
+
+.text-bar{
+    color: white;
+    text-align: left;
+    background-attachment: scroll;
+    background-color:rgba(0, 0, 0, 0.411) ;
+    position: relative;
+    top: 25px;
+    font-size: 22px;
+
+
+}
+
+.text-cont{
+    position: absolute;
+    width: 50%;
+    right: 15%;
+    top: 9%;
+
+
+}
+
+.foto1{
+    position: relative ;
+    left: 2%;
+
+
+}
+.text-1{
+    color:white;
+    text-align: left;
+    position: absolute;
+    
+
+
+
+
+}
