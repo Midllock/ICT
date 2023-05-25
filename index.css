@@ -28,24 +28,42 @@ body, html{
     width: 50%;
     right: 15%;
     top: 9%;
-
-
 }
 
 .foto1{
     position: relative ;
     left: 2%;
-
-
 }
 .text-1{
     color:white;
+    background-color: rgba(0, 0, 0, 0.411) ;
     text-align: left;
     position: absolute;
-    top: 65%;
-    width: 50%;
+    background-attachment: scroll;
+    top: 70%;
+    width: 40%;
+    font-size: 22px;
+    left: 5%;
+}
 
+.foto2{
+    position: absolute ;
+    top: 60% ;
+    right: 18%;  
+}
 
+.text3{
+    position: absolute;
+    top: 110%;
+    right: 5%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.411) ;
+    text-align: right;
+    font-size: 22px;
+}
 
-
+.foto{
+    position: absolute;
+    top: 150%;
+    left: 5%;
 }
