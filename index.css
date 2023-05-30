@@ -1,5 +1,5 @@
 body, html{
-    background-color: #060a33 ;
+    background-color: #000000 ;
 }
 
 .upp-bar{
@@ -7,7 +7,7 @@ body, html{
     font-weight: 800;
     text-align: center;
     background-attachment: scroll;
-    background-color: rgba(0, 0, 0, 0.39);
+
     
 }
 
@@ -15,7 +15,6 @@ body, html{
     color: white;
     text-align: left;
     background-attachment: scroll;
-    background-color:rgba(0, 0, 0, 0.411) ;
     position: relative;
     top: 25px;
     font-size: 22px;
@@ -36,7 +35,6 @@ body, html{
 }
 .text-1{
     color:white;
-    background-color: rgba(0, 0, 0, 0.411) ;
     text-align: left;
     position: absolute;
     background-attachment: scroll;
@@ -52,18 +50,26 @@ body, html{
     right: 18%;  
 }
 
-.text3{
+.poz{
     position: absolute;
-    top: 110%;
-    right: 5%;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.411) ;
-    text-align: right;
-    font-size: 22px;
+    top: 100%;
+    right: 0%;
+    
 }
 
-.foto{
+.text2{
     position: absolute;
-    top: 150%;
-    left: 5%;
+    top: 120%;
+    right: 15%;
+    color: white;
+    text-align: right;
+    font-size: 22px;
+    z-index: 1 ;
+}
+
+.foto3{
+    position: relative;
+    top: 500px;
+    left: 12px;
+
 }
