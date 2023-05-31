@@ -7,8 +7,6 @@ body, html{
     font-weight: 800;
     text-align: center;
     background-attachment: scroll;
-
-    
 }
 
 .text-bar{
@@ -19,13 +17,10 @@ body, html{
     top: 25px;
     font-size: 22px;
     z-index: 1;
-
-
 }
 .foto{
     position: absolute;
     right: 1%;
-
 }
 .odkaz{
     position: absolute;
@@ -43,7 +38,6 @@ body, html{
 .foto1{
     position: absolute;
     left: 2%;
-    
 }
 .text-1{
     color:white;
@@ -66,7 +60,6 @@ body, html{
     position: absolute;
     top: 110%;
     right: 0%;
-    
 }
 
 .text2{
@@ -83,5 +76,12 @@ body, html{
     position: absolute; 
     top: 105%;
     right: 550px;
+}
 
+.text3{
+    position: absolute;
+    top: 200%;
+    left: 2%;
+    color:white;
+    font-size: 22px;
 }
