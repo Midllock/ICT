@@ -18,48 +18,60 @@ body, html{
     position: relative;
     top: 25px;
     font-size: 22px;
+    z-index: 1;
 
 
+}
+.foto{
+    position: absolute;
+    right: 1%;
+
+}
+.odkaz{
+    position: absolute;
+    right: 6%;
+    top: 35px;
 }
 
 .text-cont{
     position: absolute;
     width: 50%;
     right: 15%;
-    top: 9%;
+    z-index: 1;
 }
 
 .foto1{
-    position: relative ;
+    position: absolute;
     left: 2%;
+    
 }
 .text-1{
     color:white;
     text-align: left;
     position: absolute;
     background-attachment: scroll;
-    top: 70%;
+    top: 75%;
     width: 40%;
     font-size: 22px;
-    left: 5%;
+    left: 10%;
 }
 
 .foto2{
     position: absolute ;
-    top: 60% ;
+    top: 70% ;
     right: 18%;  
 }
 
 .poz{
     position: absolute;
-    top: 100%;
+    top: 110%;
     right: 0%;
     
 }
 
 .text2{
     position: absolute;
-    top: 120%;
+    top: 130%;
     right: 15%;
     color: white;
     text-align: right;
@@ -68,8 +80,8 @@ body, html{
 }
 
 .foto3{
-    position: relative;
-    top: 500px;
-    left: 12px;
+    position: absolute; 
+    top: 105%;
+    right: 550px;
 
 }
