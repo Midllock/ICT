@@ -1,12 +1,17 @@
 body, html{
     background-color: #000000 ;
 }
-
+a{
+    text-decoration: none;
+}
 .upp-bar{
     color: white ;
+    position: absolute;
     font-weight: 800;
-    text-align: center;
-    background-attachment: scroll;
+    left:20%;
+    width: 60%;
+    background-color:rgb(51, 51, 51) ;
+    font-family:'Times New Roman', Times, serif;
 }
 
 .text-bar{
@@ -16,38 +21,45 @@ body, html{
     position: relative;
     top: 25px;
     font-size: 22px;
+    top:80px;
     z-index: 1;
+    font-family:'Times New Roman', Times, serif;
 }
 .foto{
     position: absolute;
-    right: 1%;
+    top: 12px;
+    right: -32%;
 }
 .odkaz{
     position: absolute;
-    right: 6%;
-    top: 35px;
+    right: -23%;
+    top: 30px;
+    font-family:'Times New Roman', Times, serif;
 }
 
 .text-cont{
     position: absolute;
-    width: 50%;
-    right: 15%;
-    z-index: 1;
+    font-size: 20px;
+    right: 9%;
+    top:40px;
+    font-family:'Times New Roman', Times, serif;
 }
 
 .foto1{
     position: absolute;
-    left: 2%;
+    left: 8%;
+    top:25px;
 }
 .text-1{
     color:white;
     text-align: left;
     position: absolute;
     background-attachment: scroll;
-    top: 75%;
+    top: 75%;   
     width: 40%;
-    font-size: 22px;
+    font-size: 20px;
     left: 10%;
+    font-family:'Times New Roman', Times, serif;
 }
 
 .foto2{
@@ -65,11 +77,12 @@ body, html{
 .text2{
     position: absolute;
     top: 130%;
-    right: 15%;
+    right: 14%;
     color: white;
     text-align: right;
-    font-size: 22px;
+    font-size: 20px;
     z-index: 1 ;
+    font-family:'Times New Roman', Times, serif;
 }
 
 .foto3{
@@ -80,8 +93,36 @@ body, html{
 
 .text3{
     position: absolute;
-    top: 200%;
-    left: 2%;
+    top: 190%;
+    left: 20%;
     color:white;
-    font-size: 22px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.downtxt{
+    color:white;
+    background-color: rgb(51, 51, 51);
+    position: absolute;
+    top: 202%; 
+    font-size:12px;
+    width: 100%;
+    padding: 40px;
+    right:0,99999px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.foto8{
+    position: absolute;
+    top:208%;
+    right: 1%;
+    z-index:1;
+}
+.odkaz2{
+    position: absolute;
+    color:black;
+    right: 6%;
+    top: 210%;
+    font-family:'Times New Roman', Times, serif;
+    z-index: 1 ;
 }
